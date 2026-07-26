@@ -7,7 +7,7 @@ void main() {
 }
 
 class SubwaySurfersApp extends StatelessWidget {
-  const SubwaySurfersApp({Key? key}) : super(key: key);
+  const SubwaySurfersApp({super.key});
 
   @override
   Widget build(BuildContext context) {
